@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/stat">
+    <activity
+        android:id="@+id/stat"
+        android:name="com.example.coronadetector.stat.controller.MainActivity"
+        android:label="activity_main_stat"
+        tools:layout="@layout/activity_main_stat" />
+    <activity
+        android:id="@+id/mapstn"
+        android:name="com.example.coronadetector.Maps"
+        android:label="activity_map"
+        tools:layout="@layout/activity_map" />
+    <activity
+        android:id="@+id/maps"
+        android:name="com.example.coronadetector.map.Activity.MapsMarkerActivity"
+        android:label="activity_maps"
+        tools:layout="@layout/activity_maps" />
+    <activity
+        android:id="@+id/feed"
+        android:name="com.example.coronadetector.RecyclerView.newsfeed"
+        android:label="activity_newsfeed"
+        tools:layout="@layout/activity_newsfeed" />
+    <activity
+        android:id="@+id/form"
+        android:name="com.example.coronadetector.form.MainActivity"
+        android:label="MainActivity" />
+    <activity
+        android:id="@+id/profile"
+        android:name="com.example.coronadetector.Profile"
+        android:label="Profile" />
+</navigation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/feed"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Feeds" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/maps"
+        android:icon="@drawable/ic_map"
+        android:title="Map" />
+    <item
+        android:id="@+id/stat"
+        android:icon="@drawable/ic_feed"
+        android:title="Statistics" />
+    <item
+        android:id="@+id/form"
+        android:icon="@drawable/ic_info"
+        android:title="Formulaire" />
+
+
+
+</menu>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <View
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorPrimary"
+        />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@drawable/wave"
+        android:layout_below="@+id/topView"
+         />
+
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/menu" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/covidlogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:text="N'oubliez pas de porter un masque"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+
+
+    <EditText
+        android:id="@+id/loginHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:ems="15"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:hint="email"
+        android:textSize="20sp" />
+    <!-- android:drawableLeft="@drawable/loginicon_foreground"-->
+
+    <EditText
+        android:id="@+id/passwordHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginHome"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:background="@drawable/round_border"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/ic_lock"
+        android:layout_marginTop="50dp"
+        android:ems="15"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordHome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_bg"
+        android:text="S'authentifier"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+<TextView
+    android:id="@+id/messagecompte"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/buttonlogin"
+    android:layout_marginTop="30dp"
+    android:layout_centerHorizontal="true"
+    android:text="Vous n'avez pas de compte ?"
+    android:textStyle="bold"></TextView>
+
+    <!--  android:drawableLeft="@drawable/passwordicon_foreground"-->
+    <Button
+        android:id="@+id/register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messagecompte"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_bg"
+
+        android:text="Créer un compte"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
+
+</ScrollView>

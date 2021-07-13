@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Corona Detector</string>
+
+    <string name="location_permission_denied">Location Permission Denied</string>
+    <string name="permission_required_toast">Location Permission Requested</string>
+    <string name="permission_rationale_location">Location Permission Rationale Requested</string>
+
+    <string name="connect_camera">Connect camera</string>
+    <string name="negative_popup_text_default">Your temperature has reached 38.5°C and is considered as a CoronaVirus symptom !</string>
+    <string name="negative_popup_title_default">Aww....Snap!</string>
+    <string name="dev_desc">IT engineer</string>
+
+
+    <string name="wlc_desc">Protect yourself and others by being aware of the basics and taking proper precautions. Follow the advice of the public health agency in the place where you live.</string>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="initalfragtxt">The CoronaVirus family causes illnesses ranging from the common cold to more severe diseases such as severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS), according to the WHO.
+They circulate in animals and some can be transmitted between animals and humans. Several CoronaViruses are circulating in animals that have not yet infected humans.</string>
+    <string name="mapdescription">World map showing countries with COVID-19 cases</string>
+    <string name="statdescription">Live statistics and CoronaVirus news. Tracking the number of confirmed cases, recovered patients, deaths and more. </string>
+    <string name="xraydescription">Lungs X-Ray Analysis to detect COVID-19 using Machine Learning.</string>
+    <string name="thermaldescription">COVID-19 does not have the same effects on different persons. But the common symptom is over 38.5°C fever.</string>
+    <string name="formdescription">Several questions to detect COVID-19 infection probability.</string>
+    <string name="aboutdescription">About the developing team.</string>
+    <string name="se_deplacer_en_toute_securit">Se deplacer en toute securité</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="access_token">pk.eyJ1Ijoic2VsaW1zYXllaCIsImEiOiJja2lxNWZ4b2IxZXRuMnFwMzg3ZzAzd2gxIn0.c0YnckGlSGQinygUQB2aNw</string>
+    <string name="move_map_instruction" />
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search By Country"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"/>
+
+    <item
+        android:id="@+id/action_favoris"
+        android:icon="@mipmap/trans_fav_list_foreground"
+        android:title="Favorite List"
+        app:showAsAction="always"
+
+    />
+</menu>

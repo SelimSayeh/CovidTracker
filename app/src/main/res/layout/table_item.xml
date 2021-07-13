@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/country"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="USA"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#00BCD4"
+                android:background="#fff"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+
+                android:id="@+id/totalCases"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:background="#fff"
+                android:text="12345678"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:gravity="center"
+
+
+                android:layout_weight="1"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="View Details"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#00BCD4"
+                android:background="#fff"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coronadetector">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Corona"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Menu">
+
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".stat.controller.AllFavorisActivity" />
+        <activity android:name=".stat.controller.StatDetailsActivity" />
+        <activity android:name=".stat.controller.MainActivity" />
+        <activity android:name=".map.Activity.MapsMarkerActivity" />
+        <activity android:name=".form.Main2Activity" />
+        <activity android:name=".form.Main5Activity" />
+        <activity android:name=".form.Main6Activity" />
+        <activity android:name=".form.Main4Activity" />
+        <activity android:name=".form.Main3Activity" />
+        <activity android:name=".form.MainActivity" />
+        <activity android:name=".showCases" />
+        <activity android:name=".Maps" />
+        <activity android:name=".test" />
+        <activity android:name=".RecyclerView.newsfeed" />
+        <activity android:name=".addPublication" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Register" />
+        <activity android:name=".Home" />
+        <activity android:name=".Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> <!-- The API key for Google Maps-based APIs. -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/newIconBlue</color>
+    <color name="colorPrimaryDark">@color/newIconBlue</color>
+
+    <color name="colorAccent">#D81B60</color>
+
+
+    <!--    Dark theme color -->
+
+    <color name="DarkGrey">#212121</color>
+    <color name="LightGray">#F1F1F1</color>
+    <color name="vDarkGrey">#121212</color>
+    <color name="TextColorWhite1">#DEFFFFFF</color>EF5350
+    <color name="SecondaryWhite">#B3FFFFFF</color>
+    <color name="Pink400">#EF5350</color>
+    <color name="Pink400Overlay">#1FEF5350</color>
+    <color name="Pink200">#EF9A9A</color>
+    <color name="Orange400">#ff9e22</color>
+    <color name="Orange400Overlay">#1FFF9E22</color>
+    <color name="Orange200">#ffc77d</color>
+    <color name="Blue400">#26C6DA</color>
+    <color name="Blue400Overlay">#1F26C6DA</color>
+    <color name="Blue200">#80DEEA</color>
+    <color name="colorRed">#ff3943</color>
+    <color name="colorRedDark">#801b20</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#00A000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="newIconBlue">#022140</color>
+    <color name="newIconGreen">#68DB01</color>
+    <color name="light_grey">#e4e4e4</color>
+    <color name="grey">#8b8b8b</color>
+    <color name="dark_grey">#696969</color>
+    <color name="mapboxWhite">#FFFFFF</color>
+    <color name="mapboxBlue">#0000FF</color>
+    <color name="mapboxGray">#696969</color>
+</resources>

@@ -1,0 +1,2 @@
+include ':app', ':androidsdk-release', ':thermalsdk-release'
+rootProject.name='CoronaDetector'

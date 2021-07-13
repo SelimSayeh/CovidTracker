@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:id="@+id/newsfeed"
+        android:title="News Feed"
+        android:icon="@drawable/ic_email"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"
+
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/addpublication"
+        android:icon="@drawable/ic_lock"
+        android:title="add Publication"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/logoutitem"
+
+        android:title="Logout"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tracker"
+
+        android:title="Add location"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/showtracks"
+
+        android:title="show Covid cases"
+        app:showAsAction="never"/>
+
+
+
+
+</menu>
